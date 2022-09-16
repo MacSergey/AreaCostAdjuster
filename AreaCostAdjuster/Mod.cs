@@ -19,7 +19,7 @@ namespace AreaCostAdjuster
         public override string NameRaw => "Area Cost Adjuster";
         public override string Description => Localize.Mod_Description;
 
-        protected override ulong StableWorkshopId => 0ul;
+        protected override ulong StableWorkshopId => 2863765284ul;
         protected override ulong BetaWorkshopId => 0ul;
 
         public override List<ModVersion> Versions { get; } = new List<ModVersion>

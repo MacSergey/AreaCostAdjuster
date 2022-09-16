@@ -3,7 +3,7 @@
     <TargetFramework>net35</TargetFramework>
     <Authors>MacSergey</Authors>
     <Product>Area Cost Adjuster</Product>
-    <PackageProjectUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=</PackageProjectUrl>
+    <PackageProjectUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2863765284</PackageProjectUrl>
     <LangVersion>9.0</LangVersion>
     <ManagedDLLPath>$(MSBuildProgramFiles32)/Steam/steamapps/common/Cities_Skylines/Cities_Data/Managed</ManagedDLLPath>
     <ExternalDLLPath>$(SolutionDir)/libs</ExternalDLLPath>
@@ -100,7 +100,7 @@
   
   
   <PropertyGroup Condition="'$(Configuration)' == 'Stable Release' OR '$(Configuration)' == 'Stable Debug'">
-    <WorkshopId>2487213155</WorkshopId>
+    <WorkshopId>2863765284</WorkshopId>
     <Type>Stable</Type>
   </PropertyGroup>
 
@@ -130,7 +130,7 @@
     <Message Text="Deploy to workshop $(WorkshopDir)" Importance="high" />
     <RemoveDir Directories="$(WorkshopDir)" />
     <Copy SourceFiles="@(FilesToCopy)" DestinationFiles="@(FilesToCopy->'$(WorkshopDir)\%(RecursiveDir)%(Filename)%(Extension)')" />
-    <!-- <Copy SourceFiles="$(ProjectDir)..\Workshop\PreviewImage$(Type).png" DestinationFiles="$(WorkshopDir)\PreviewImage.png" /> -->
+     <Copy SourceFiles="$(ProjectDir)..\Workshop\PreviewImage$(Type).png" DestinationFiles="$(WorkshopDir)\PreviewImage.png" /> 
   </Target>
   
 </Project>
