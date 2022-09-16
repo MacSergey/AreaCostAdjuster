@@ -69,6 +69,9 @@
       <LastGenOutput>Localize.Designer.cs</LastGenOutput>
       <CustomToolNamespace>AreaCostAdjuster</CustomToolNamespace>
     </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Localize.ru.resx">
+      <CustomToolNamespace>AreaCostAdjuster</CustomToolNamespace>
+    </EmbeddedResource>
   </ItemGroup>
 
 
@@ -81,7 +84,6 @@
   <Import Project="..\ModsCommon\LocalizeShared\ja\LocalizeShared.ja.projitems" Label="Shared" />
   <Import Project="..\ModsCommon\LocalizeShared\nl\LocalizeShared.nl.projitems" Label="Shared" />
   <Import Project="..\ModsCommon\LocalizeShared\pl\LocalizeShared.pl.projitems" Label="Shared" />
-  <Import Project="..\ModsCommon\LocalizeShared\pt\LocalizeShared.pt.projitems" Label="Shared" />
   <Import Project="..\ModsCommon\LocalizeShared\ru\LocalizeShared.ru.projitems" Label="Shared" />
   <Import Project="..\ModsCommon\LocalizeShared\zh-CN\LocalizeShared.zh-CN.projitems" Label="Shared" />
   <Import Project="..\ModsCommon\PluginsShared\PluginsShared.projitems" Label="Shared" />
@@ -101,11 +103,6 @@
     <WorkshopId>2487213155</WorkshopId>
     <Type>Stable</Type>
   </PropertyGroup>
-  
-  <!-- <PropertyGroup Condition="'$(Configuration)' == 'Beta Release' OR '$(Configuration)' == 'Beta Debug'"> -->
-    <!-- <WorkshopId>2487959237</WorkshopId> -->
-    <!-- <Type>Beta</Type> -->
-  <!-- </PropertyGroup> -->
 
   <PropertyGroup>
     <LocalDir>$(LOCALAPPDATA)\Colossal Order\Cities_Skylines\Addons\Mods\$(MSBuildProjectName)$(Type)</LocalDir>
