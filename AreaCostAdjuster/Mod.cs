@@ -26,7 +26,7 @@ namespace AreaCostAdjuster
         {
             new ModVersion(new Version("1.0"), new DateTime(2022,9,16)),
         };
-        protected override Version RequiredGameVersion => new Version(1, 15, 0, 7);
+        protected override Version RequiredGameVersion => new Version(1, 15, 1, 4);
 
 #if BETA
         public override bool IsBeta => true;
