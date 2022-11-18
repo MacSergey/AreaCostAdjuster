@@ -34,7 +34,7 @@ namespace AreaCostAdjuster
         public override bool IsBeta => false;
 #endif
         protected override string IdRaw => nameof(AreaCostAdjuster);
-        protected override ResourceManager LocalizeManager => Localize.ResourceManager;
+        protected override LocalizeManager LocalizeManager => Localize.LocaleManager;
 
         protected override void GetSettings(UIHelperBase helper)
         {
